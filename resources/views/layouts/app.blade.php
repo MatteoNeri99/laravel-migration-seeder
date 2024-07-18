@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-    @vite('resources/resources/js/app.js')
+    @vite('resources/js/app.js')
 </head>
 <body>
+
+    @yield('main-content')
 
 </body>
 </html>
